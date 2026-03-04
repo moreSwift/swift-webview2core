@@ -9,16 +9,16 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/thebrowsercompany/swift-cwinrt",
-            revision: "eb46cdb66f770a1e006f9fcfebbf9e99a0fba811"
+            url: "https://github.com/moreSwift/swift-cwinrt",
+            .upToNextMinor(from: "0.1.0")
         ),
         .package(
-            url: "https://github.com/stackotter/swift-uwp",
-            revision: "8128f6615b7c5b46ada289ab6d49d871ca1e13a5"
+            url: "https://github.com/moreSwift/swift-uwp",
+            .upToNextMinor(from: "0.1.0")
         ),
         .package(
-            url: "https://github.com/stackotter/swift-windowsfoundation",
-            revision: "4ad57d20553514bcb23724bdae9121569b19f172"
+            url: "https://github.com/moreSwift/swift-windowsfoundation",
+            .upToNextMinor(from: "0.1.0")
         ),
     ],
     targets: [
